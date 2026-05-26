@@ -279,7 +279,7 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 # Header Files
-src/gitinfo.h
+# src/gitinfo.h  ← commitando esse arquivo no fork pra build CI Android funcionar
 
 x32-bin/*
 
