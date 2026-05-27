@@ -231,6 +231,10 @@ config.otml
 !data/things/772/Tibia.dat
 !data/things/772/Tibia.pic
 
+# Android project XMLs (Manifest, resources, layouts, strings, themes). Sem isso
+# o CI não acha AndroidManifest.xml e o build de manifest falha.
+!android/**/*.xml
+
 ## Cmake cache
 CMakeLists.txt.user
 CMakeCache.txt
